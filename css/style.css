@@ -1,0 +1,316 @@
+/* Reglas de CSS para Maquetar una Pagina Basica con Estructura HTML5 y CSS*/
+/*Creado por Ing. Juancito Peña*/
+
+/* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 2DA Regla para el Body */
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(32, 27, 27);
+}
+
+/* 3ERA Regla para el Contenedor de mi Pagina Web */
+
+.container {
+    width: 70%;
+    height: 100%;
+    color: black;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 0px solid rgb(0, 0, 0);
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgb(32, 27, 27);;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 4TA Regla para el Encabezado o Header */
+
+header{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color:rgb(48, 47, 47);
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/*5TA REGLA */
+
+ nav{
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    background-color:orange;
+    color: white;
+} 
+
+  /* 6TA Regla */
+
+ #contenido{
+    width:70%;
+    height:500px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height:100px;
+    border-radius: 5px;
+}
+#contenido img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+
+  /* 8VA Regla */
+
+#contenido h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 600px;
+    color: white;
+}
+
+  /* 9NA Regla */ 
+
+aside{
+    width:29%;
+    height:500px;
+    background-color: green;
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+aside img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5PX;
+}
+
+  /* 9NA Regla */
+
+aside h2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 400px;
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+} 
+
+  /* Sectima Regla para el estiolo  del footer */
+
+footer{
+    background-color: #750984;
+    width: 100%;
+    height: 200px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius:5px ;
+}
+footer img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+
+.botton button{
+  margin-top:20px ;
+  margin-bottom: 20px;
+  margin: 10px;
+}
+
+button{
+  padding: 20px 40px; 
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  color:black;
+  background: #efe30a;
+  border: none;
+  animation: 2s ease ;
+}
+
+button:hover{
+  color: white;
+  background: orange;
+}
+
+
+/* 10MA Regla para el estilo del movil de 300 a 768  */
+
+@media (max-width: 768px) and (min-width: 300px) {
+       
+/* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 2DA Regla para el Body */
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(32, 27, 27);
+}
+
+/* 3ERA Regla para el Contenedor de mi Pagina Web */
+
+.container {
+  width: 95%;
+  height: 100%;
+  color: black;
+  margin: 0px auto;
+  border-radius: 5px;
+  border: 0px solid #efe30a;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color:rgb(32, 27, 27);
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+/*5TA REGLA */
+
+nav{
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  background-color:orange;
+  color: white;
+} 
+
+/* 6TA Regla */
+
+#contenido{
+  width:100%;
+  height:500px;
+  background-color: rgb(65, 231, 87);
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height:100px;
+}
+
+aside{
+  width:100%;
+  height:500px;
+  background-color: green;
+  float: right;
+  margin-top: 10px;
+
+}
+}
+  
+
+/* 10MA Regla para el estilo del movil de 300 a 768  */
+
+@media (max-width: 1024px) and (min-width: 769px) {
+       
+  /* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 2DA Regla para el Body */
+  
+  body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(32, 27, 27);
+  }
+  
+  /* 3ERA Regla para el Contenedor de mi Pagina Web */
+  
+  .container {
+    width: 95%;
+    height: 100%;
+    color: black;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 0px solid #efe30a;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(32, 27, 27);
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  
+  /*5TA REGLA */
+  
+  nav{
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    background-color:orange;
+    color: white;
+  } 
+  
+  /* 6TA Regla */
+  
+  #contenido{
+    width:100%;
+    height:400px;
+    background-color: rgb(65, 231, 87);
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height:100px;
+  }
+  #contenido img{
+    height: 100%;
+  }
+  aside{
+    width:100%;
+    height:400px;
+    background-color: green;
+    float: right;
+    margin-top: 10px;
+  
+  }
+  }
+    
+  
